@@ -47,4 +47,7 @@ public void keyPressed(){
   d+=30;
   if(key=='p'&&d>5)
   d-=30;
-}
+  System.out.println(d);
+  if(key=='o'&& d>2740)
+  d=1370;
+}//1370 to 2750
